@@ -57,9 +57,6 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _answerQuestion(int score) {
-    // var aBool = true;
-    // aBool = false;
-
     _totalScore += score;
 
     setState(() {
@@ -75,12 +72,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    // var dummy = const ['Hello'];
-    // dummy.add('Max');
-    // print(dummy);
-    // dummy = [];
-    // questions = []; // does not work if questions is a const
-
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
